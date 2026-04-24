@@ -1,0 +1,190 @@
+/* ITLP - WIDMAN */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f4f4f4;
+    font-weight: 500;
+}
+
+
+.barra-sup {
+    background: #000;
+    color: #f4f4f4;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.sup-izq img{
+    height: 15px;
+}
+
+.sup-der span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.barra-pri {
+    background: #000000;
+    color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    position: relative;
+
+    border-top: 1px solid grey;
+}
+
+.izq {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu {
+    cursor: pointer;
+    background-color: #313131;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .material-icons {
+    font-size: 20px;
+    line-height: 1;
+}
+
+
+.der {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.logo-cont {
+    position: absolute;
+    left: 60px;
+    top: 90%;
+    transform: translateY(-50%);
+
+    background: black;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.logo-cont img {
+    height: 90px;
+}
+
+.nav-enl {
+    display: flex;
+    gap: 25px;
+    font-size: 17px;
+}
+
+.nav-enl a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-enl a:hover {
+    color: #ccc;
+}
+
+.material-icons {
+    cursor: pointer;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 50px auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    padding: 20px;
+    color: white;
+    position: relative;
+    height: 170px;
+    
+}
+
+.card-header img {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 22px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.card-header h2 {
+    margin-top: 80px;
+    font-size: 35px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.alemania { background-color: #1d1d1d; }
+.arabia { background-color: #27a550; color: black; }
+.argelia { background-color: #00a067; color: black; }
+.argentina { background-color: #9cc9f2; color: black; }
+.australia { background-color: #efb500; color: black; }
+.austria { background-color: #ed3d32; color: black; }
+.brasil { background-color: #ffcf25; color: black; }
+.belgica { background-color: #880029; }
+
+.card-body {
+    padding: 15px;
+    font-size: 17px;
+    background: #f9f9f9;
+}
+
+.card-body p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body span {
+    display: inline;
+    color: gray;
+    font-size: 14px;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
